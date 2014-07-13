@@ -1,5 +1,11 @@
 # AwesomeSms
 
+We contribute to awesome cost reduction of sms authentication!
+
+You should read overview of this plugin.
+
+http://qiita.com/kidachi_/items/cd63063fa98aaa5030bd
+
 ## Installation
 
 Add this line to your application's Gemfile:
@@ -16,9 +22,9 @@ Or install it yourself as:
 
 ## Usage
 
-You should use this gem with [Devise](https://github.com/plataformatec/devise).
+1. You should use this gem with [Devise](https://github.com/plataformatec/devise).
 
-Add Initializer of your app.
+2. Add Initializer of your app.
 
 ```
     initializer "simple_auth.set_config" do
