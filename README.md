@@ -29,7 +29,7 @@ Or install it yourself as:
 ```
     initializer "simple_auth.set_config" do
       config.awesome_sms.user_class ||= 'User'
-      config.awesome_sms.twilio_num ||= YOUR_TWILIO_NUM
+      config.awesome_sms.twilio_num ||= YOUR_TWILIO_PHONE_NUMBER
     end
 ```
 
