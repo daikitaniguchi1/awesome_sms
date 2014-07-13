@@ -4,7 +4,7 @@
 
 Add this line to your application's Gemfile:
 
-    gem 'testgem002'
+    gem 'awesome_sms'
 
 And then execute:
 
@@ -12,7 +12,7 @@ And then execute:
 
 Or install it yourself as:
 
-    $ gem install testgem002
+    $ gem install awesome_sms
 
 ## Usage
 
