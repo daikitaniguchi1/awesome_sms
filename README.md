@@ -27,11 +27,23 @@ Or install it yourself as:
 2. Add Initializer of your app.
 
 ```
-    initializer "simple_auth.set_config" do
-      config.awesome_sms.user_class ||= 'User'
-      config.awesome_sms.twilio_num ||= YOUR_TWILIO_PHONE_NUMBER
-    end
+initializer "simple_auth.set_config" do
+  config.awesome_sms.user_class ||= 'User'
+  config.awesome_sms.twilio_num ||= YOUR_TWILIO_PHONE_NUMBER
+end
 ```
+
+3. Regist API to Twilio.
+
+Your API endpoint:
+
+```
+http(s)://YOUR_APP_HOST/sms_auth/verify
+```
+
+Enter your API endpoint to Green box below pic.
+
+<img src="https://qiita-image-store.s3.amazonaws.com/0/8790/b9cde726-9237-4f9a-e7c9-a47fc0146b48.png" width="320" />
 
 
 ## Contributing
