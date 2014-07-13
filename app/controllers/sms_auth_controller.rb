@@ -1,0 +1,2 @@
+class SmsAuthController < ApplicationController
+end
