@@ -22,9 +22,9 @@ Or install it yourself as:
 
 ## Usage
 
-1. You should use this gem with [Devise](https://github.com/plataformatec/devise).
+- You should use this gem with [Devise](https://github.com/plataformatec/devise).
 
-2. Add Initializer of your app.
+- Add Initializer of your app.
 
 ```
 initializer "simple_auth.set_config" do
@@ -33,7 +33,7 @@ initializer "simple_auth.set_config" do
 end
 ```
 
-3. Regist API to Twilio.
+- Regist API to Twilio.
 
 Your API endpoint:
 
