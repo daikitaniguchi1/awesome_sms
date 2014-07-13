@@ -43,7 +43,7 @@ http(s)://YOUR_APP_HOST/sms_auth/verify
 
 Enter your API endpoint to Green box below pic.
 
-<img src="https://qiita-image-store.s3.amazonaws.com/0/8790/b9cde726-9237-4f9a-e7c9-a47fc0146b48.png" width="320" />
+<img src="https://qiita-image-store.s3.amazonaws.com/0/8790/b9cde726-9237-4f9a-e7c9-a47fc0146b48.png" width="6400" />
 
 
 ## Contributing
