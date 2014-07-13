@@ -7,11 +7,11 @@ require "awesome_sms/version"
 Gem::Specification.new do |s|
   s.name        = "awesome_sms"
   s.version     = AwesomeSms::VERSION
-  s.authors     = ["TODO: Your name"]
-  s.email       = ["TODO: Your email"]
-  s.homepage    = "TODO"
-  s.summary     = "TODO: Summary of AwesomeSms."
-  s.description = "TODO: Description of AwesomeSms."
+  s.authors     = ["kidachi"]
+  s.email       = ["t.daiki50@gmail.com"]
+  s.homepage    = ""
+  s.summary     = "AwesomeSms."
+  s.description = "AwesomeSms."
   s.license     = "MIT"
 
   s.files = Dir["{app,config,db,lib}/**/*", "MIT-LICENSE", "Rakefile", "README.rdoc"]
