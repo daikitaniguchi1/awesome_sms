@@ -4,8 +4,8 @@ class SmsAuthController < ApplicationController
   # 認証ページ（GET）
   # viewでは@sender_num, @user.sms_token, @user.idを表示
   def index
-    @user = User.find(current_user.id)
-    @sender_num = TWILIO_NUMBER
+    @user = Rails.application.config.awesome_sms.user_class.constantize.find(current_user.id)
+    @sender_num = Rails.application.config.awesome_sms.twilio_num
     @user.sms_token = generate_token
     @user.save!
   end
@@ -50,7 +50,7 @@ class SmsAuthController < ApplicationController
 
   # ユーザチェック
   def user_check
-    @user = User.find_by_id(@user_id)
+    @user = Rails.application.config.awesome_sms.user_class.constantize.find_by_id(@user_id)
     raise 'user is invalid' if @user.nil?
   end
 
